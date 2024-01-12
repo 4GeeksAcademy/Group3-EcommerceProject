@@ -1,11 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './styles/global.css';
-
-import Navbar from './components/Navbar/Navbar';
+import Navbar from '../js/components/Navbar/Navbar';
 import HomePage from './views/HomePage/HomePage';
 import ServicesPage from './views/ServicesPage/ServicesPage';
+
 
 const App = () => {
   return (

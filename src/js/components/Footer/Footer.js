@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from 'assets/images/Trabajador.com_Logo.png';
+import logo from '../../../assets/images/Trabajador.com_Logo.png';
 
 const Footer = () => {
   return (

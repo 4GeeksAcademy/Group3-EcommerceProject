@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Carousel } from 'react-bootstrap';
-import 'styles/ServiceCard.css';
+import '../../../styles/ServiceCard.css';
 
 const ServiceCard = () => {
   const [services, setServices] = useState([]);

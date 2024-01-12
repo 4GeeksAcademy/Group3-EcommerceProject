@@ -1,10 +1,11 @@
 import React from 'react';
-import Navbar from '../components/Navbar/Navbar';
-import Jumbotron from '../components/Jumbotron/Jumbotron';
-import ServiceCard from '../components/ServiceCard/ServiceCard';
-import CompanyPartnersCarousel from '../components/Carousel/CompanyPartnersCarousel';
-import TrabajadoresGrid from '../components/TrabajadoresGrid/TrabajadoresGrid';
-import Footer from '../components/Footer/Footer';
+import Navbar from '../../components/Navbar/Navbar';
+import Jumbotron from '../../components/Jumbotron/Jumbotron';
+import ServiceCard from '../../components/ServiceCard/ServiceCard';
+import CompanyPartnersCarousel from '../../components/Carousel/CompanyPartnersCarousel';
+import TrabajadoresGrid from '../../components/TrabajadoresGrid/TrabajadoresGrid';
+import Footer from '../../components/Footer/Footer';
+
 
 const HomePage = () => {
   return (

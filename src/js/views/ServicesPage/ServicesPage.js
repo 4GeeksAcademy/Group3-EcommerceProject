@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import Filter from '../components/Filter/Filter';
-import SearchBar from '../components/SearchBar/SearchBar';
-import TrabajadoresGrid from '../components/TrabajadoresGrid/TrabajadoresGrid';
+import Filter from '../../components/Filter/Filter';
+import SearchBar from '../../components/SearchBar/SearchBar';
+import TrabajadoresGrid from '../../components/TrabajadoresGrid/TrabajadoresGrid';
+
 
 const ServicesPage = () => {
   const [services, setServices] = useState([]);

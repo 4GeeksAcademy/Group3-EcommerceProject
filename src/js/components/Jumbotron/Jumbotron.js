@@ -1,13 +1,15 @@
 import React from 'react';
-import 'styles/Jumbotron.css';
-import jumbotronVideo from 'assets/videos/TrabajadorJumbotronVideo_V1.mp4';
+import '../../../styles/Jumbotron.css';
+// import jumbotronVideo from '../../../assets/videos/TrabajadorJumbotronVideo_V1.mp4';
 
 const Jumbotron = () => {
   return (
     <div className="jumbotron jumbotron-fluid">
-      <video autoPlay loop muted>
-        <source src={jumbotronVideo} type="video/mp4" />
+
+      <video autoplay loop muted>
+        <source src="../../../assets/videos/TrabajadorJumbotronVideo_V1.mp4" type="video/mp4" />
       </video>
+
       <div className="container">
         <h1>Looking to hire the top coding freelancers?</h1>
         <h3>Our Trabajadores will:</h3>
